@@ -121,6 +121,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 ## Audit, Observability, and Cost Control
 
 - [LangFuse](https://langfuse.com/) - Open-source LLM observability. Full trace capture with spans, generations, scores, and costs. Self-hostable with integrations for LangChain, LlamaIndex, OpenAI, and Anthropic SDKs.
+- [MartinLoop](https://github.com/Keesan12/martin-loop) - Open-source governance runtime for AI coding agents with hard budget caps, verifier gates, explicit halt reasons, and inspectable run records.
 - [OpenTelemetry](https://opentelemetry.io/) - CNCF standard for distributed tracing, metrics, and logs. The vendor-neutral substrate for building agent observability pipelines.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based instrumentation SDK for LLM applications. Traces LLM calls with standard OTel spans and integrates with existing observability stacks.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability proxy. Request logging, cost tracking, caching, and rate limiting via a single proxy endpoint. Self-hostable.
