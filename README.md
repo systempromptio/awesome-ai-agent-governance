@@ -109,12 +109,18 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Policy Engines and Authorisation
 
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Open-source pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions per request, detects 24h kill chain patterns (BULK_READ_THEN_EXFIL), Merkle-chained audit trail. MIT licensed, integrates with LangGraph, LangChain, AutoGen.
+https://www.tryagentgate.com/
+
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Cedar Policy Language](https://www.cedarpolicy.com/) - AWS-designed authorisation language with formally verified semantics. Human-readable syntax built for per-request authorisation decisions at high throughput.
 - [Casbin](https://www.casbin.org/) - Multi-model access control library supporting ACL, RBAC with hierarchy and domain, ABAC, and RESTful models in 10+ languages.
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework for Terraform, Vault, Consul, and Nomad. Useful for governing infrastructure provisioned by AI agents.
 - [AWS Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar policy service on AWS. Centralised policy storage with sub-millisecond evaluation latency for agent action authorisation.
 - [Ory Keto](https://github.com/ory/keto) - Open-source permission server implementing Google Zanzibar's relation-based access control model for fine-grained agent tool permissions.
+
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Open-source pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions per request, detects 24h kill chain patterns (BULK_READ_THEN_EXFIL), Merkle-chained audit trail. MIT licensed, integrates with LangGraph, LangChain, AutoGen.
+https://www.tryagentgate.com/
 
 ---
 
