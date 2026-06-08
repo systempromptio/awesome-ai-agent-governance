@@ -99,6 +99,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 ## Claude Code and MCP Governance
 
 - [systemprompt-core](https://github.com/systempromptio/systemprompt-core) - The MCP governance runtime. 30-crate Rust workspace handling authentication, authorisation, rate limiting, and logging for MCP server interactions. Published on crates.io under `systemprompt-*`.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain agent trust scoring MCP server for Solana. Provides wallet reputation checks (`score_agent`, `preflight_check`) before x402 micropayments. Useful for governing agent-to-agent payment flows with verifiable on-chain evidence. Free: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 - [awesome-claude-code-security](https://github.com/efij/awesome-claude-code-security) - Curated list focused on Claude Code hardening: MCP server security, secrets scanning, prompt injection detection, and red-teaming frameworks.
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - The canonical Claude Code community list covering tooling, hooks, slash-commands, agent skills, and workflows.
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's documentation on the permissions model, CLAUDE.md configuration, MCP server setup, and hook system.
