@@ -77,6 +77,8 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [Casbin](https://github.com/casbin/casbin) - Access control library supporting ACL, RBAC, ABAC, and multi-tenant models. Language-agnostic with production implementations in Go, Rust, Python, Java, and Node.js.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Proxy layer for LLM API calls with per-key budgets, rate limiting, spend tracking, and model routing across all major providers.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input and output validation framework for LLM responses. Define schemas, validators, and automated correction actions that enforce structure and safety constraints at inference time.
+- [MAREF](https://github.com/maref-org/maref) - Open-source agent governance operating system with TLA+ formal verification, 10-state Gray Code governance state machine, per-agent Ed25519 identity, circuit breaker with HALT absorbing state, and LoRA/ontology dual drift detection. Covers 10/10 OWASP Agentic Top 10 risks. Apache 2.0.
+
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's toolkit for adding programmable guardrails to LLM-based systems via Colang configuration language.
 - [LlamaGuard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3) - Meta's open-source content safety model for classifying LLM inputs and outputs against safety policies.
 - [Presidio](https://github.com/microsoft/presidio) - Microsoft's PII detection and anonymisation SDK. Identifies and redacts sensitive data in text before it reaches an LLM or audit log.
