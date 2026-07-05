@@ -71,6 +71,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 ## Open-Source Governance Toolkits
 
 - [systemprompt-template](https://github.com/systempromptio/systemprompt-template) - Self-hosted governance layer for Claude Code and MCP agents. Authentication, authorisation, audit trail, cost controls, and policy enforcement in a single compiled Rust binary. Source-available BSL-1.1.
+- [CorvinOS](https://github.com/CorvinLabs/CorvinOS) - Self-hosted agentic OS with hash-chained tamper-evident audit log (GDPR Art. 30/32), per-user consent gate (deny-by-default), EU AI Act Art. 50 bot-disclosure, and GDPR Art. 17 erasure orchestrator — all as load-bearing architecture constraints. `pip install corvinos`. Apache-2.0.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Runtime security for AI agents across LangChain, CrewAI, AutoGen, OpenAI Agents, Semantic Kernel, and 15+ frameworks. Covers all 10 OWASP Agentic Top 10 risks with policy evaluation under 0.1ms.
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - CNCF-graduated general-purpose policy engine using the Rego language. Decouples policy from application logic; increasingly used for agent tool authorisation.
 - [Cedar](https://github.com/cedar-policy/cedar) - AWS policy language and engine for fine-grained authorisation. Formally verified semantics, expressive syntax, and high throughput for per-request agent permission decisions.
