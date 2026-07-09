@@ -80,6 +80,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's toolkit for adding programmable guardrails to LLM-based systems via Colang configuration language.
 - [LlamaGuard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3) - Meta's open-source content safety model for classifying LLM inputs and outputs against safety policies.
 - [Presidio](https://github.com/microsoft/presidio) - Microsoft's PII detection and anonymisation SDK. Identifies and redacts sensitive data in text before it reaches an LLM or audit log.
+- [ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) - Local-first PreToolUse enforcement engine for AI coding agents. Runs in the agent's hook system to hard-block secret exfiltration, destructive deletes, and supply-chain attacks before the tool call executes. Turns thumbs-down feedback into auto-promoted prevention rules. Works with Claude Code, Cursor, Codex, Gemini CLI, Amp, Cline, and OpenCode. MIT licensed, npm installable.
 
 ---
 
@@ -104,6 +105,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's documentation on the permissions model, CLAUDE.md configuration, MCP server setup, and hook system.
 - [MCP Specification](https://spec.modelcontextprotocol.io/) - The Model Context Protocol specification. Understanding the protocol is prerequisite to governing it.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Reference implementations and patterns from Anthropic including agent architectures, tool use, and safety patterns.
+- [ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) - PreToolUse hook-based enforcement layer that gates Claude Code's tool calls locally before execution. Hard-blocks secret exfiltration, destructive deletes, and supply-chain attacks. Self-improving rules from captured thumbs-down feedback.
 
 ---
 
