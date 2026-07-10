@@ -85,6 +85,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Enterprise Governance Platforms
 
+- [Certiv](https://certiv.ai/) - Endpoint-native runtime assurance for AI agents. Discovers agents running on the device (Claude Code, Copilot, Cursor, local models), records reasoning chains and tool calls, and enforces policy before actions execute.
 - [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
 - [OneTrust AI Governance](https://www.onetrust.com/solutions/ai-governance/) - Inventory, risk assessment, and compliance controls for AI systems embedded in broader data governance and privacy programmes.
 - [Lumenova AI](https://www.lumenova.ai/) - AI lifecycle governance: risk assessment, explainability monitoring, and compliance reporting focused on model transparency and regulatory evidence.
