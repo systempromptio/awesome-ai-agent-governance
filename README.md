@@ -93,6 +93,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [HiddenLayer](https://hiddenlayer.com/) - AI detection and response platform. Monitors AI models for adversarial attacks, data extraction attempts, and policy violations.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - Production monitoring for LLM applications: latency, cost, quality scoring, and trace capture integrated with existing Datadog infrastructure.
 - [Patronus AI](https://www.patronus.ai/) - Automated evaluation and monitoring for LLMs in production. Detects hallucinations, toxicity, PII leakage, and custom policy violations.
+- [Proofpane](https://proofpane.com) - Runtime governance gateway for AI coding agents (Claude Code, Cursor, Codex) and automation platforms. Enforces policy allow/deny/human-in-the-loop and DLP redaction in the execution path, and writes a hash-chained audit that exports as an offline-verifiable, Ed25519-signed evidence pack mapped to NIST AI RMF, ISO 42001, EU AI Act, GDPR, and SOC 2.
 
 ---
 
