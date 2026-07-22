@@ -91,7 +91,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [Presidio](https://github.com/microsoft/presidio) - Microsoft's PII detection and anonymisation SDK. Identifies and redacts sensitive data in text before it reaches an LLM or audit log.
 - [ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) - Local-first PreToolUse enforcement engine for AI coding agents. Runs in the agent's hook system to hard-block secret exfiltration, destructive deletes, and supply-chain attacks before the tool call executes. Turns thumbs-down feedback into auto-promoted prevention rules. Works with Claude Code, Cursor, Codex, Gemini CLI, Amp, Cline, and OpenCode. MIT licensed, npm installable.
 - [SteerPlane](https://github.com/vijaym2k6/SteerPlane) - Open-source runtime control plane for AI agents: deterministic loop detection, per-session cost ceilings with mid-stream termination, and a hierarchical deny/allow/rate-limit policy engine, enforced via a Python decorator or an OpenAI-compatible gateway proxy. Framework integrations for LangChain, CrewAI, AutoGen, and the OpenAI Agents SDK. No model in the enforcement path. MIT licensed; `pip install steerplane` / `npm install steerplane`.
-
+- **[Humanbound](https://github.com/humanbound/humanbound)** - Open source testing framework that scores agent behavior against a security policy, targeting the risks in the OWASP Top 10 for Agentic Applications (prompt injection and goal hijacking listed first), and turns failed tests into guardrail rules.
 ---
 
 ## Free Governance Tools
