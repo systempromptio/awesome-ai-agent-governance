@@ -162,6 +162,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane for model, MCP, skill, and agent traffic. Provides governed routing, policy decisions, approval workflows, cost analytics, trace ingestion, and runtime state references.
 - [Evidently AI](https://www.evidentlyai.com/) - Open-source ML and LLM monitoring. Detects data and model drift, generates monitoring reports, and evaluates LLM output quality.
 - [WhyLabs AI Observatory](https://whylabs.ai/) - AI observability platform monitoring LLM applications for drift, data quality issues, and policy violations in production.
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Open-source live-web benchmark for evaluating browser and computer-use agents on 283 tasks across 163 websites, with request interception and execution evidence useful for governance audits.
 - [CausalLayer MCP](https://github.com/smq9sn5jck-coder/causallayer-mcp) - Deterministic AI liability attribution engine exposed as a remote MCP server. Given a structured incident, returns a CausalCertificateV1: a signed, hash-chained, Bitcoin-anchored receipt allocating fault between AI vendor, deployer, and end-user. Four-factor scoring, Shapley-inspired multi-agent attribution, and jurisdiction-aware regulatory mapping (EU AI Act, NIST AI RMF, AU AI Ethics).
 
 ---
