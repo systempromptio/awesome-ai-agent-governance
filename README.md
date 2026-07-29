@@ -176,6 +176,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [promptmap](https://github.com/utkusen/promptmap) - Automated prompt injection testing tool. Systematically tests LLM-integrated applications for injection vulnerabilities.
 - [Rebuff](https://github.com/protectai/rebuff) - Prompt injection detector using multi-layer defence: heuristics, LLM-based detection, VectorDB canary tokens, and model hardening signals.
 - [LLM Guard](https://github.com/protectai/llm-guard) - Security toolkit for LLM interactions with input and output scanners for prompt injection, PII, toxicity, and sensitive data.
+- [VERITAS Omega Agent Trust Lab](https://github.com/VrtxOmega/veritas-agent-trust-lab) - Open-source blind calibration lab for testing whether agent-assurance decisions survive forged results, parameter substitution, nonce replay, correlated evaluators, evidence deletion, and missing telemetry.
 - [Vigil](https://github.com/deadbits/vigil-llm) - LLM prompt injection and security scanner. Detects injection attempts, jailbreaks, and sensitive keyword patterns in real time.
 - [awesome-ai-agent-attacks](https://github.com/webpro255/awesome-ai-agent-attacks) - Curated timeline of 160+ documented AI agent security incidents, breaches, and vulnerabilities (2024-2026). Every entry dated, sourced, and categorized by attack pattern.
 
