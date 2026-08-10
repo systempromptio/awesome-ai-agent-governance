@@ -73,6 +73,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Open-Source Governance Toolkits
 
+- [ADR Guard (delivery-gates)](https://github.com/chohan-sarmad-ali/delivery-gates) - MIT-licensed CI gate suite for AI-assisted development. Blocks pull requests that change watched code without an updated architecture decision record, enforces release-blocker checklists, and pairs those deterministic gates with a deliberately non-blocking LLM PR reviewer. Python standard library only.
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Apache-2.0 local-first Agent Operation Environment (AOE) with explicit permission scopes, least-privilege tool access, verification gates, and local execution receipts across Claude Code, Codex, Gemini CLI, Cursor, and local models.
 - [AgentLock](https://github.com/webpro255/agentlock) - Pre-action authorization for AI agent tool calls. Deny-by-default gate with five decision types, session-level behavioral scoring, Ed25519 signed receipts, and hash-chained audit. Published adversarial benchmark with regression data.
 - [Agent Passport System](https://github.com/aeoess/agent-passport-system) - Apache-2.0 protocol for agent identity, scoped delegation, runtime enforcement, and signed action receipts. Includes TypeScript and Python SDKs and an MCP server with 150 governance tools.
