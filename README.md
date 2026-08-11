@@ -117,6 +117,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 - [Certiv](https://certiv.ai/) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
 - [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
+- [CoreBase](https://corebasehq.com/) - Governance layer for agents that read and write to live business systems; databases, REST and GraphQL APIs, MCP servers, and 50+ SaaS apps. Enforces rules on every tool call, holds risky actions for human sign-off, and logs executed and blocked calls alike. Per-tenant Postgres row-level security, embeddable widget, and an API.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - Production monitoring for LLM applications: latency, cost, quality scoring, and trace capture integrated with existing Datadog infrastructure.
 - [HiddenLayer](https://hiddenlayer.com/) - AI detection and response platform. Monitors AI models for adversarial attacks, data extraction attempts, and policy violations.
 - [Lumenova AI](https://www.lumenova.ai/) - AI lifecycle governance: risk assessment, explainability monitoring, and compliance reporting focused on model transparency and regulatory evidence.
