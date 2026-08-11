@@ -71,6 +71,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 ## Open-Source Governance Toolkits
 
 - [systemprompt-template](https://github.com/systempromptio/systemprompt-template) - Self-hosted governance layer for Claude Code and MCP agents. Authentication, authorisation, audit trail, cost controls, and policy enforcement in a single compiled Rust binary. Source-available BSL-1.1.
+- [MAREF](https://github.com/maref-org/maref) - Agent Governance Operating System (Apache-2.0). Treats governance as a first-class product: 10-state Gray Code governance FSM, TLA+ formal model checking (5 model-checked invariants), 10/10 OWASP Agentic Top 10 risk coverage, per-agent Ed25519 cryptographic identity, Merkle-verifiable audit chain, and circuit-breaker with HALT absorbing state. 11,000+ tests.
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Runtime security for AI agents across LangChain, CrewAI, AutoGen, OpenAI Agents, Semantic Kernel, and 15+ frameworks. Covers all 10 OWASP Agentic Top 10 risks with policy evaluation under 0.1ms.
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - CNCF-graduated general-purpose policy engine using the Rego language. Decouples policy from application logic; increasingly used for agent tool authorisation.
 - [Cedar](https://github.com/cedar-policy/cedar) - AWS policy language and engine for fine-grained authorisation. Formally verified semantics, expressive syntax, and high throughput for per-request agent permission decisions.
