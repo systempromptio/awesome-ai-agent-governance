@@ -227,6 +227,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [EU AI Act Compliance Checker](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/) - Interactive tool for assessing whether a specific AI system falls under EU AI Act obligations and which requirements apply.
 - [OWASP LLM AI Security and Governance Checklist](https://genai.owasp.org/) - Practical checklist for teams deploying LLM-powered systems in production.
 - [SANS Institute AI Security Resources](https://www.sans.org/ai-cybersecurity/) - SANS training and research on AI/ML security covering adversarial attacks, model security, and secure deployment practices.
+- [Singapore AI Governance Readiness Checklist](https://vyrwork.com/tools/singapore-ai-governance-readiness-checklist) - Free evidence-oriented checklist mapping IMDA's four agentic AI governance dimensions to 24 production-readiness prompts covering risk bounds, accountable ownership, lifecycle controls, and end-user responsibility.
 - [State of AI Governance Report](https://www.credo.ai/resources) - Annual enterprise survey of AI governance programme maturity, common gaps, and implementation patterns from Credo AI.
 
 ---
