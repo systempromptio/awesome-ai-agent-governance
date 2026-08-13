@@ -131,6 +131,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Claude Code and MCP Governance
 
+- [agent-approval-gate](https://github.com/Prime-agentai/agent-approval-gate) - PreToolUse hook enforcing spend, account-creation, and fund-movement gates for autonomous agents. Blocked calls become queued approval tickets; includes an installer and a probe-based verifier for both block and allow paths.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Reference implementations and patterns from Anthropic including agent architectures, tool use, and safety patterns.
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - The canonical Claude Code community list covering tooling, hooks, slash-commands, agent skills, and workflows.
 - [awesome-claude-code-security](https://github.com/efij/awesome-claude-code-security) - Curated list focused on Claude Code hardening: MCP server security, secrets scanning, prompt injection detection, and red-teaming frameworks.
