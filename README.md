@@ -208,6 +208,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) - Curated collection of production agent patterns including sandboxing, credential management, human-in-the-loop workflows, and multi-agent coordination.
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - SDK for building human-in-the-loop workflows for AI agents. Wraps tool calls with approval gates, audit trails, and escalation paths.
 - [Lilian Weng: LLM-Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - Comprehensive survey of agent architectures including planning, memory, tool use, and oversight mechanisms.
+- [Penholder: Preventive vs Reactive AI Agent Governance](https://penholder.ai/preventive-vs-reactive-ai-agent-governance.html) - Reference article contrasting reactive (post-hoc detection) and preventive (pre-commit) approaches to agent oversight. Describes a preventive write-gate where an agent's write to a system of record is held as a durable PENDING proposal and commits only after human approval — fail-closed on conflict, with an append-only, hash-chained, tamper-evident provenance log.
 
 ---
 
