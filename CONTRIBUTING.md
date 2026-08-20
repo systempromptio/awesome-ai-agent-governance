@@ -15,6 +15,7 @@ Contributions welcome. This list covers **runtime governance of AI agents** — 
 
 - General AI safety or alignment research
 - AI ethics principles or governance manifestos (without tooling)
+- CI/CD gates over AI-generated code (pre-merge, not runtime)
 - Courses or tutorials on building agents (without governance focus)
 - Vendor marketing content without a substantive free tier or open-source component
 
