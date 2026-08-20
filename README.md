@@ -164,6 +164,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Audit, Observability, and Cost Control
 
+- [aGiTrack](https://github.com/core-aix/agitrack) - Runtime audit trail for terminal coding agents. Wraps Claude Code, Codex, or OpenCode and commits each agent turn to git, recording the prompt, backend, model, and that turn's input, output, cache-read, and cache-write token counts in the commit message, so the trace lives in version control rather than a separate log store. Sub-agent tokens are counted separately. Apache-2.0.
 - [CausalLayer MCP](https://github.com/smq9sn5jck-coder/causallayer-mcp) - Deterministic AI liability attribution engine exposed as a remote MCP server. Given a structured incident, returns a CausalCertificateV1: a signed, hash-chained, Bitcoin-anchored receipt allocating fault between AI vendor, deployer, and end-user. Four-factor scoring, Shapley-inspired multi-agent attribution, and jurisdiction-aware regulatory mapping (EU AI Act, NIST AI RMF, AU AI Ethics).
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Open-source live-web benchmark for evaluating browser and computer-use agents on 283 tasks across 163 websites, with request interception and execution evidence useful for governance audits.
 - [Clay Seal Receipts](https://github.com/clayseal/clayseal-receipts) - Verifiable execution receipts for AI agent actions: policy wrap with shadow mode, signed offline-verifiable receipts so audit trails do not depend on the vendor being online. MIT.
