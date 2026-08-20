@@ -218,6 +218,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [Anthropic: Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - Anthropic's published guidance on safe agentic systems: minimal footprint, human-in-the-loop for high-stakes actions, and preference for reversible over irreversible actions.
 - [awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) - Curated collection of production agent patterns including sandboxing, credential management, human-in-the-loop workflows, and multi-agent coordination.
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - SDK for building human-in-the-loop workflows for AI agents. Wraps tool calls with approval gates, audit trails, and escalation paths.
+- [Least privilege as an import contract](https://github.com/chohan-sarmad-ali/delivery-case-studies/blob/main/05-least-privilege-as-an-import-contract.md) - Single-egress architecture for agent systems: all outbound calls originate from one package behind policy checks and mandatory human approval, an import-linter contract enforced in CI keeps it single, and a static AST gate closes the authorisation gap the import contract cannot see. Includes the incident that motivated the layering and the limits of each layer.
 - [Lilian Weng: LLM-Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - Comprehensive survey of agent architectures including planning, memory, tool use, and oversight mechanisms.
 
 ---
