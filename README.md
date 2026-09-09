@@ -200,6 +200,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane for model, MCP, skill, and agent traffic. Provides governed routing, policy decisions, approval workflows, cost analytics, trace ingestion, and runtime state references.
 - [Weights and Biases Weave](https://wandb.ai/site/weave) - Tracing and evaluation for LLM applications with strong integrations for LangChain, LlamaIndex, OpenAI, and Anthropic.
 - [WhyLabs AI Observatory](https://whylabs.ai/) - AI observability platform monitoring LLM applications for drift, data quality issues, and policy violations in production.
+- [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Evaluation and evidence layer for coding-agent runs, providing two deliberately separate evaluation lanes: isolated attempts execute in private fresh-repository attempt workspaces, while explicitly authorized production-touching workflows execute through a reviewed boundary. Evidence retains the initial workspace receipt plus post-execution repository manifest hashes linked through terminal, evidence, and state; evaluator profile, prompt, rubric, output, generation, and provenance hashes; and evidence/evaluation IDs behind every aggregate. Candidate and judge costs remain separate evidence. Evaluator profiles support deterministic commands and configurable LLM judges. MIT, npm installable as @yylo/benchmark.
 
 ---
 
