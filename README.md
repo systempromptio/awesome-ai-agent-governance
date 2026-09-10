@@ -175,6 +175,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework for Terraform, Vault, Consul, and Nomad. Useful for governing infrastructure provisioned by AI agents.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Ory Keto](https://github.com/ory/keto) - Open-source permission server implementing Google Zanzibar's relation-based access control model for fine-grained agent tool permissions.
+- [amu-governance](https://github.com/sangaraju1988/amu-governance) - Lineage-gated access control library for AI-agent shared memory. Gates retrieval on the full column-level derivation of a cached result, not just content tags, to block cross-department leakage through legitimately-computed results. MIT license, `pip install amu-governance`. Author-submitted; accompanying paper published in IEEE Access (2026).
 
 ---
 
