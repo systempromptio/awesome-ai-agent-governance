@@ -222,6 +222,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [PromptBench](https://github.com/microsoftarchive/promptbench) - Microsoft's unified evaluation framework for adversarial robustness of LLMs. Tests models against adversarial prompts at character, word, sentence, and semantic levels. Archived; the benchmark corpus remains useful, the code is no longer maintained.
 - [promptmap](https://github.com/utkusen/promptmap) - Automated prompt injection testing tool. Systematically tests LLM-integrated applications for injection vulnerabilities.
 - [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft's Python Risk Identification Toolkit for automated red-teaming of generative AI systems including multi-turn and orchestrated agent attacks.
+- [Skill Safe](https://skillsafe.online/) - Free pre-installation security review for agent skills and tool configurations, with traceable findings for prompt injection, exfiltration, unsafe actions, and permission risks.
 - [VERITAS Omega Agent Trust Lab](https://github.com/VrtxOmega/veritas-agent-trust-lab) - Open-source blind calibration lab for testing whether agent-assurance decisions survive forged results, parameter substitution, nonce replay, correlated evaluators, evidence deletion, and missing telemetry.
 
 ---
