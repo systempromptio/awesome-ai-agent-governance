@@ -169,6 +169,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [systemprompt-core](https://github.com/systempromptio/systemprompt-core) - The MCP governance runtime. 30-crate Rust workspace handling authentication, authorisation, rate limiting, and logging for MCP server interactions. Published on crates.io under `systemprompt-*`.
 - [ThumbGate](https://github.com/IgorGanapolsky/ThumbGate) - PreToolUse hook-based enforcement layer that gates Claude Code's tool calls locally before execution. Hard-blocks secret exfiltration, destructive deletes, and supply-chain attacks. Self-improving rules from captured thumbs-down feedback.
 - [ToolHive](https://github.com/stacklok/toolhive) - Runs MCP servers in isolated containers with declared permissions, secrets management, and a signed server registry. Apache-2.0, with Kubernetes and CLI deployment modes.
+- [Verax](https://github.com/verax-ai/verax) - MCP server between an agent and its tools: each call passes a policy gate and leaves a signed decision record before it runs, an effect row is reconciled against it after, approval waits for an operator on the same machine, and the ledger stays there. Apache-2.0.
 
 ---
 
