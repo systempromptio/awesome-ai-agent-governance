@@ -177,6 +177,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Policy Engines and Authorisation
 
+- [Agent Gorgon](https://github.com/hermes-labs-ai/agent-gorgon) - User-space runtime policy guard for agent process trees that observes process, file, and network activity, records JSONL decisions, and can attempt SIGSTOP or SIGKILL on reviewed triggers; audit-only mode rehearses policy without signaling. Apache-2.0.
 - [Allowly](https://allowly.ai/) - Hosted policy decisions and signed receipts for AI-agent actions; the caller enforces, and receipts verify offline with workspace Ed25519 keys using open-source Python (`allowly-receipt-format`) and TypeScript (`@allowly/verifier`) verifiers, with a [CC BY 4.0 specification and interoperability map](https://github.com/Allowly-AI/allowly-receipt-format/blob/main/INTEROP.md).
 - [amu-governance](https://github.com/sangaraju1988/amu-governance) - Lineage-gated access control library for AI-agent shared memory. Gates retrieval on the full column-level derivation of a cached result, not just content tags, to block cross-department leakage through legitimately-computed results. MIT license, `pip install amu-governance`. Author-submitted; accompanying paper published in IEEE Access (2026).
 - [AWS Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar policy service on AWS. Centralised policy storage with sub-millisecond evaluation latency for agent action authorisation.
