@@ -252,6 +252,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [promptmap](https://github.com/utkusen/promptmap) - Automated prompt injection testing tool. Systematically tests LLM-integrated applications for injection vulnerabilities.
 - [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft's Python Risk Identification Toolkit for automated red-teaming of generative AI systems including multi-turn and orchestrated agent attacks.
 - [Skill Safe](https://skillsafe.online/) - Free pre-installation security review for agent skills and tool configurations, with traceable findings for prompt injection, exfiltration, unsafe actions, and permission risks.
+- [Sunglasses](https://github.com/sunglasses-dev/sunglasses) - MIT-licensed local scanner for prompt injection, credential leaks and data exfiltration in text and files. Runs as a CLI, a Python API or an MCP server, with no network calls needed to scan. Disclosure: submitted by its maintainer.
 - [VERITAS Omega Agent Trust Lab](https://github.com/VrtxOmega/veritas-agent-trust-lab) - Open-source blind calibration lab for testing whether agent-assurance decisions survive forged results, parameter substitution, nonce replay, correlated evaluators, evidence deletion, and missing telemetry.
 
 ---
