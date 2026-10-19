@@ -319,5 +319,6 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Related Lists
 
+- [awesome-ai-agents](https://github.com/ianwieds/awesome-ai-agents) - Categorized list of agent frameworks and tools, with observability, safety and security sections.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive directory of MCP server implementations.
 - [AwesomeResponsibleAI](https://github.com/AthenaCore/AwesomeResponsibleAI) - Academic and policy resources for responsible AI covering ethics, standards, and regulatory frameworks.
