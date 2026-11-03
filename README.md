@@ -167,6 +167,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [Scalekit](https://www.scalekit.com/) - Agent integration layer that connects agents to 600+ apps through per-user OAuth with scoped permissions, exposes only the selected tools to each agent via virtual MCP servers, and logs every tool call for audit. SOC 2 Type II and HIPAA BAA; commercial with a free tier.
 - [systemprompt.io](https://systemprompt.io) - Self-hosted AI governance infrastructure: a single compiled Rust binary on your own systems that governs, logs, and cost-controls every AI interaction across every provider and client (Claude, Codex, Gemini, or your own agents). Authentication, authorisation, audit trail, policy enforcement, and a provider gateway behind one /v1 endpoint. Air-gap capable; the only entry in this section you run entirely on your own infrastructure. Source-available BSL-1.1 via [systemprompt-template](https://github.com/systempromptio/systemprompt-template).
 - [ValGuard](https://valguard.ai) - Hosted validation layer that checks LLM and agent responses and tool calls against deterministic rules (JSON schemas, tool-call allowlists, PII checks, token and cost budgets) before downstream code acts on them, with shadow mode to measure a rule before enforcing it. On Growth plans and above, each validated request can carry an HMAC-signed, metadata-only record of which validators ran and what they decided. Closed source, free tier.
+
 ---
 
 ## Claude Code and MCP Governance
