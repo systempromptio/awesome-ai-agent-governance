@@ -323,6 +323,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Learning Resources
 
+- [AgentCraft Claude Code safety checklist](https://agentcraft.dev/en/blog/claude-code-install-checklist/) - Checks to run before installing a Claude Code skill, plugin or mod, or opening a cloned repo, each tied to a static review of 5,036 skills, 2,688 plugins, 891 mods and 41,142 project skills.
 - [EU AI Act Compliance Checker](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/) - Interactive tool for assessing whether a specific AI system falls under EU AI Act obligations and which requirements apply.
 - [IAPP AI Governance Professional (AIGP)](https://iapp.org/certify/aigp) - Certification covering AI risk assessment, policy development, and compliance implementation. The most widely recognised credential for AI governance practitioners.
 - [OWASP LLM AI Security and Governance Checklist](https://genai.owasp.org/) - Practical checklist for teams deploying LLM-powered systems in production.
