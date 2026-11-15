@@ -144,6 +144,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [EVE Authority Lab](https://evecore.com/authority-lab) - Scans a declared agent surface (an OpenAPI spec, MCP server config, IAM policy, or agent tool definitions) and reports every consequential action the agent can take, where its authority exceeds the job, and the control that closes each gap. Verdicts are deterministic and LLM-free, findings are split into what is observable in the artifact versus what a static surface cannot establish, and the result is a signed report a third party verifies offline. No signup. By EVE NeuroSystems.
 - [GitHub Actions Permissions Generator](https://systemprompt.io/tools/github-actions-permissions) - Produces a least-privilege `permissions:` block for a workflow instead of the default write-all token.
 - [llms.txt Generator and Validator](https://systemprompt.io/tools/llms-txt-generator) - Generates or lints an llms.txt so AI crawlers and agents get a machine-readable index of your site.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Public read-only MCP server for 1,700+ US and Canadian live-music venues.
 - [systemprompt.io Reports MCP Server](https://systemprompt.io/tools/eu-ai-act-compliance-report) - Paid remote MCP server (`https://systemprompt.io/api/v1/mcp/systemprompt-reports/mcp`) returning decision-ready EU AI Act compliance reports (Annex III classification, article-by-article obligation gaps, Annex IV checklist, remediation plan). Paid, per call; discovery and the usage guide are free.
 
 ---
