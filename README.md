@@ -334,6 +334,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Learning Resources
 
+- [Agent skill security scan of 121 skill repos and MCP servers](https://upskill.coach/research/agent-skill-security) - Results and method from scanning the 121 agent skill repos and MCP servers in the Agent Coach catalog, each at a pinned commit, for prompt injection in agent-facing files, credential reads paired with network calls, committed secrets, vulnerable dependencies, and risky code patterns, with automated and hand-reviewed verdicts. Disclosure: submitted by Avatar 8 LLC, which runs Agent Coach.
 - [AgentCraft Claude Code safety checklist](https://agentcraft.dev/en/blog/claude-code-install-checklist/) - Checks to run before installing a Claude Code skill, plugin or mod, or opening a cloned repo, each tied to a static review of 5,036 skills, 2,688 plugins, 891 mods and 41,142 project skills.
 - [EU AI Act Compliance Checker](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/) - Interactive tool for assessing whether a specific AI system falls under EU AI Act obligations and which requirements apply.
 - [IAPP AI Governance Professional (AIGP)](https://iapp.org/certify/aigp) - Certification covering AI risk assessment, policy development, and compliance implementation. The most widely recognised credential for AI governance practitioners.
