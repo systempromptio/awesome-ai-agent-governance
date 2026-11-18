@@ -271,6 +271,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Security, Red-Teaming, and Threat Models
 
+- [Agent Coach](https://upskill.coach/library) - Free library of agent skills, MCP servers and repos in which each recommended item was statically scanned at a pinned commit (custom prompt-injection and credential-exfiltration rules plus semgrep, gitleaks and osv-scanner), with flagged lines read by hand; each item's verdict, scanned commit and review status are exposed as JSON, REST and a remote MCP server so agents can check an item before installing it. Hosted, closed source. Disclosure: submitted by Avatar 8 LLC, which runs Agent Coach.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo) - Benchmark from ETH Zurich's SPY Lab measuring both utility and security of tool-using agents under indirect prompt injection, with pluggable attacks and defences.
 - [AI Incident Database](https://incidentdatabase.ai/) - Searchable database of 700+ documented AI system failures and harms in deployment. Essential for building realistic threat models and risk assessments.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - Tencent Zhuque Lab's self-hosted AI red-teaming platform. Unifies AI infrastructure CVE scanning, MCP server and agent skill auditing (tool poisoning, credential leaks, privilege escalation), and jailbreak evaluation behind one interface; skill-scan ships as a standalone pip-installable CLI for CI/CD.
